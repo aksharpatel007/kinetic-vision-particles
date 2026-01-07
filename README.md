@@ -1,94 +1,156 @@
-# ✨ Kinetic Vision Particles  
-### *Gesture-Controlled 3D Particles Powered by Computer Vision*
+# 🌌 Kinetic Vision Particles
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MediaPipe-Computer%20Vision-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
-</p>
+An interactive **particle animation / visual experience** built for the web. This project focuses on smooth motion, kinetic effects, and visually appealing particle behavior using modern front‑end technologies.
 
-<p align="center">
-  <b>A real-time, browser-based 3D particle experience controlled entirely by your hand gestures.</b>
-</p>
-
----
-
-## 🌌 Overview
-
-**Kinetic Vision Particles** is an experimental **interactive WebGL project** that fuses  
-🎨 **creative coding**,  
-🤖 **computer vision**, and  
-🧠 **mathematical beauty**.
-
-Using your **webcam + hand gestures**, you can **rotate, expand, and morph** thousands of glowing particles in real time — all running **100% in the browser** with no backend required.
-
-> ✋ Your hand becomes the controller.  
-> 🌍 The browser becomes the canvas.
-
----
-
-## 🎥 Live Interaction Concept
-
-| Gesture | Effect |
-|------|------|
-| ✋ **Open Hand** | Particle expansion / breathing effect |
-| ✊ **Closed Fist** | Particle contraction |
-| ↔️ **Move Hand** | 360° rotation of the 3D scene |
-| 🎨 **UI Controls** | Change shapes & colors |
+🚀 **Live Demo:**
+👉 [https://aksharpatel007.github.io/kinetic-vision-particles/](https://aksharpatel007.github.io/kinetic-vision-particles/)
 
 ---
 
 ## ✨ Features
 
-### 🖐️ Gesture-Based Control (MediaPipe Hands)
-- Real-time hand landmark detection
-- Open vs closed fist detection
-- Smooth positional mapping for scene rotation
-
-### 🌐 High-Performance 3D Rendering
-- Built with **Three.js**
-- Renders **8,000+ glowing particles**
-- Custom textures & additive blending
-
-### 💠 Mathematical Shape Morphing
-Switch seamlessly between elegant particle formations:
-
-- ❤️ **Heart** — Parametric heart equations  
-- 🪐 **Saturn** — Planet sphere with particle rings  
-- 🌻 **Flower** — Phyllotaxis (Golden Angle) spiral  
-- ✨ **Chaos / Fireworks** — Randomized particle cloud  
-
-### 💅 Modern Glassmorphism UI
-- Frosted glass panels
-- Smooth transitions
-- Minimalist futuristic design using **Tailwind CSS**
+* Dynamic particle animation
+* Smooth motion & kinetic visual effects
+* Lightweight and fast
+* Fully client‑side (no backend required)
+* Responsive and works on all modern browsers
 
 ---
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
-| Layer | Technology |
-|----|----|
-| 🎨 Frontend | HTML5, JavaScript (ES6+) |
-| 🧊 3D Engine | [Three.js](https://threejs.org/) |
-| 🖐️ Computer Vision | [Google MediaPipe Hands](https://developers.google.com/mediapipe) |
-| 💄 Styling | [Tailwind CSS](https://tailwindcss.com/) |
-| 🔗 Icons | [Lucide Icons](https://lucide.dev/) |
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla JS)**
+* **Canvas / DOM Animation** (depending on implementation)
+* **GitHub Pages** for deployment
 
 ---
 
-## 🚀 Getting Started
+## 📁 Project Structure
 
-### ✅ Prerequisites
-- Modern browser (Chrome / Edge / Firefox)
-- Webcam access enabled
-- Internet connection (for CDN libraries)
+```text
+kinetic-vision-particles/
+│
+├── index.html        # Main HTML file
+├── style.css         # Styles
+├── script.js         # Particle logic & animation
+├── assets/           # Images / extra resources (if any)
+└── README.md
+```
 
 ---
 
-### 📦 Installation
+## ⚙️ Installation & Setup
 
-#### 1️⃣ Clone the Repository
+This is a **static front‑end project**, so setup is simple.
+
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/aksharpatel007/kinetic-vision-particles.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```bash
+cd kinetic-vision-particles
+```
+
+### 3️⃣ Run Locally (Any One Method)
+
+#### ✅ Method 1: Open Directly
+
+Just open `index.html` in your browser.
+
+#### ✅ Method 2: Using VS Code Live Server (Recommended)
+
+```bash
+# Install Live Server extension in VS Code
+# Right‑click index.html → Open with Live Server
+```
+
+#### ✅ Method 3: Using Python HTTP Server
+
+```bash
+# Python 3
+python -m http.server 8000
+```
+
+Then open:
+
+```
+http://localhost:8000
+```
+
+---
+
+## 🚀 Deployment (GitHub Pages)
+
+This project is deployed using **GitHub Pages**.
+
+### Steps to Deploy:
+
+1. Push code to GitHub
+2. Go to **Repository → Settings → Pages**
+3. Select:
+
+   * Source: `main` branch
+   * Folder: `/root`
+4. Save and wait a few seconds
+
+Your site will be live at:
+
+```
+https://<username>.github.io/<repository-name>/
+```
+
+---
+
+## 📸 Preview
+
+Live interactive preview available here:
+👉 [https://aksharpatel007.github.io/kinetic-vision-particles/](https://aksharpatel007.github.io/kinetic-vision-particles/)
+
+---
+
+## 🧠 Learning Outcomes
+
+* Canvas / animation fundamentals
+* Particle system logic
+* JavaScript performance optimization
+* Front‑end project deployment
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+```bash
+# Create a new branch
+git checkout -b feature-name
+
+# Commit changes
+git commit -m "Add new feature"
+
+# Push branch
+git push origin feature-name
+```
+
+---
+
+## 📄 License
+
+This project is open‑source and available under the **MIT License**.
+
+---
+
+## 👤 Author
+
+**Akshar Patel**
+GitHub: [https://github.com/aksharpatel007](https://github.com/aksharpatel007)
+
+---
+
+⭐ If you like this project, don’t forget to star the repo!
